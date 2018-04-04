@@ -1,0 +1,10 @@
+/* targetcli-fb uses "org.kernel.TCMUService1" to find handlerse. */
+
+<node>
+  <interface name="org.kernel.TCMUService1">
+    <method name="CheckCfgstr">
+      <arg type="s" name="cfgstr" direction="in"/>
+      <arg type="b" name="is_valid" direction="out"/>
+    </method>
+  </interface>
+</node>
