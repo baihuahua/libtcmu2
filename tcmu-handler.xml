@@ -1,0 +1,16 @@
+<node>
+  <interface name="org.kernel.TCMUService1">
+    <method name="CheckConfig">
+      <arg type="s" name="cfgstr" direction="in"/>
+      <arg type="b" name="is_valid" direction="out"/>
+    </method>
+    <method name="OpenDevice">
+      <arg type="s" name="cfgstr" direction="in"/>
+      <arg type="b" name="is_valid" direction="out"/>
+    </method>
+    <method name="CloseDevice">
+      <arg type="s" name="name" direction="in"/>
+      <arg type="b" name="is_valid" direction="out"/>
+    </method>
+  </interface>
+</node>
